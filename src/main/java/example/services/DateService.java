@@ -9,6 +9,7 @@ import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Comparator;
 import java.util.List;
 
 public class DateService {
@@ -22,5 +23,13 @@ public class DateService {
         return people;
     }
 
+    public static void printString() {
+        System.out.println("Message reference Method");
+    }
+
+    public static int compareId(Person p1, Person p2) {
+        Integer id = p2.getId();
+        return id.compareTo(p1.getId());
+    }
 
 }

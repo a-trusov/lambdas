@@ -14,4 +14,5 @@ public class Person {
     private String email;
     private String gender;
     private String ip_address;
+    private int age;
 }
